@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ragbox launcher icon: a ragdoll tumbling inside a red box. Original artwork. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- box -->
+    <path
+        android:pathData="M30,28 L78,28 Q82,28 82,32 L82,76 Q82,80 78,80 L30,80 Q26,80 26,76 L26,32 Q26,28 30,28 Z"
+        android:strokeColor="#C62828"
+        android:strokeWidth="4"
+        android:fillColor="#00000000"/>
+    <!-- head -->
+    <path
+        android:pathData="M58,38 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"
+        android:fillColor="#EDE6E8"/>
+    <!-- torso -->
+    <path
+        android:pathData="M60,45 L50,60"
+        android:strokeColor="#EDE6E8"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"/>
+    <!-- arms -->
+    <path
+        android:pathData="M58,48 L68,54 L74,50 M58,48 L48,44 L42,48"
+        android:strokeColor="#EDE6E8"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"/>
+    <!-- legs -->
+    <path
+        android:pathData="M50,60 L58,68 L56,76 M50,60 L40,64 L36,72"
+        android:strokeColor="#EDE6E8"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"/>
+</vector>

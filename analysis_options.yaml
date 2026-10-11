@@ -1,0 +1,14 @@
+analyzer:
+  language:
+    strict-casts: false
+  errors:
+    non_constant_identifier_names: ignore
+    unused_element: ignore
+    unused_field: ignore
+  exclude:
+    - build/**
+    - android/**
+linter:
+  rules:
+    - avoid_print
+    - prefer_const_constructors_in_immutables

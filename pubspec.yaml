@@ -1,0 +1,21 @@
+name: ragbox
+description: "Ragbox - a free, open-source, offline ragdoll physics sandbox for Android."
+publish_to: 'none'
+version: 1.1.0+6
+
+environment:
+  sdk: ^3.6.0
+
+# Ragbox deliberately has no third-party packages: the physics engine,
+# art and sound synthesis are all written in plain Dart, so the project
+# builds with nothing but the Flutter SDK.
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
